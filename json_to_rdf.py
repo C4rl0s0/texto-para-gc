@@ -62,9 +62,9 @@ rdf_file.write("@prefix ex: <https://example.org/> .\n@prefix sch: <https://sche
 for relation in relations:
     e1, e1t, r, e2, e2t = relation.values()
     if entities[e1] != e1t:
-        e1 += ", " + disambiguities[e1]
+        e1 += " " + disambiguities[e1]
     if entities[e2] != e2t:
-        e2 += ", " + disambiguities[e2]
+        e2 += " " + disambiguities[e2]
     rdf_file.write(f"ex:{underlined(e1)} ex:{camel_case(r)} ex:{underlined(e2)} .\n")
 
 rdf_file.write("\n")
@@ -80,7 +80,7 @@ for entity, type in entities.items():
     rdf_file.write(f"ex:{underlined(entity)} a sch:{uri_map.get(type, 'Thing')} .\n")
 
 for entity, type in disambiguities.items():
-    entity += ", " + str(type)
+    entity += " " + str(type)
     rdf_file.write(f"ex:{underlined(entity)} a sch:{uri_map.get(type, 'Thing')} .\n")
 
 f.close()
