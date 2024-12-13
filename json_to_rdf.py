@@ -6,6 +6,7 @@ import json
 
 def underlined(s: str) -> str:
     s = s.replace(' ','_')
+    s = s.replace(',','')
     return s.replace('-', '_').lower()
 
 # função que nomeia relacionamentos em camel case, escolha puramente estética e pode ser alterada dependendo da configuração
