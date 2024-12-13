@@ -1,0 +1,25 @@
+@prefix ex: <https://example.org/> .
+@prefix sch: <https://schema.org/> .
+
+ex:nintendo ex:developed ex:gamecube .
+ex:gamecube ex:beganDevelopmentIn ex:1998 .
+ex:nintendo ex:partneredWith ex:artx .
+ex:artx ex:designs ex:graphics_processing_unit .
+ex:gamecube ex:hadCodename ex:dolphin .
+ex:gamecube ex:announcedIn ex:1999 .
+ex:gamecube ex:releasedIn ex:2001 .
+ex:gamecube ex:uses ex:optical_discs .
+ex:gamecube ex:uses ex:memory_cards .
+ex:gamecube ex:focusesOn ex:gaming .
+
+ex:nintendo a sch:Organization .
+ex:gamecube a sch:Product .
+ex:1998 a sch:Date .
+ex:artx a sch:Organization .
+ex:graphics_processing_unit a sch:Product .
+ex:dolphin a sch:Thing .
+ex:1999 a sch:Date .
+ex:2001 a sch:Date .
+ex:optical_discs a sch:Product .
+ex:memory_cards a sch:Product .
+ex:gaming a sch:Thing .
