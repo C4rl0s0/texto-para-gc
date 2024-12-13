@@ -1,0 +1,5 @@
+Nintendo began developing the GameCube in 1998 after entering a partnership with ArtX to design 
+a graphics processing unit. The console was formally announced under the codename "Dolphin" the following year, 
+and was released in 2001 as the GameCube. It is Nintendo's first console to use its own optical discs 
+instead of ROM cartridges, supplemented by writable memory cards for saved games. Unlike its competitors, 
+it is solely focused on gaming and does not play mass media like DVD or CD.
