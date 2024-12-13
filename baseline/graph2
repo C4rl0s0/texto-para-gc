@@ -1,0 +1,27 @@
+@prefix sch: <https://schema.org/> .
+
+ex:biden ex:worksAs ex:president .
+ex:biden ex:participatedIn ex:inauguration_for_the_united_states_presidency .
+ex:inauguration_for_the_united_states_presidency ex:tookPlaceIn ex:january_20_2021 .
+ex:biden ex:hadAgeOf ex:78 .
+ex:biden ex:hasReligion ex:catholic .
+ex:john_f_kennedy ex:hasReligion ex:catholic .
+ex:biden ex:wasBornIn ex:delaware .
+ex:george_h_w_bush ex:workedAs ex:president .
+ex:george_h_w_bush ex:workedAs ex:vice_president .
+ex:richard_nixon ex:workedAs ex:president .
+ex:richard_nixon ex:workedAs ex:vice_president .
+ex:biden ex:isOfGeneration ex:silent_generation .
+
+ex:biden a sch:Person .
+ex:president a sch:Occupation .
+ex:inauguration_for_the_united_states_presidency a sch:Event .
+ex:january_20_2021 a sch:Date .
+ex:78 a sch:Thing .
+ex:catholic a sch:Thing .
+ex:john_f_kennedy a sch:Person .
+ex:delaware a sch:Place .
+ex:george_h_w_bush a sch:Person .
+ex:vice_president a sch:Occupation .
+ex:richard_nixon a sch:Person .
+ex:silent_generation a sch:Thing .
